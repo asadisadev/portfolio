@@ -9,7 +9,7 @@ import { site } from "@/data/site";
 
 export const metadata = {
   title: "About",
-  description: "About Asad — Full Stack Developer.",
+  description: "About Asad — Software Engineer Enthusiast.",
 };
 
 export default function AboutPage() {

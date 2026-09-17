@@ -43,13 +43,13 @@ export default function Footer() {
               >
                 <Linkedin className="h-[18px] w-[18px]" />
               </a>
-              <a
+              {/* <a
                 href={`mailto:${site.email}`}
                 aria-label="Email"
                 className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-colors hover:bg-accent hover:text-foreground focus-ring"
               >
                 <Mail className="h-[18px] w-[18px]" />
-              </a>
+              </a> */}
             </div>
           </div>
 

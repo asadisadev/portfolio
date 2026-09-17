@@ -3,10 +3,10 @@ export const site = {
   role: "Full Stack Developer",
   tagline:
     "I build modern web applications, full-stack systems and AI-powered products.",
-  email: "hello@asad.dev",
+  email: "asad.dev750@gmail.com",
   location: "Remote · Worldwide",
-  github: "https://github.com/",
-  linkedin: "https://linkedin.com/",
+  github: "https://github.com/asadisadev",
+  linkedin: "https://www.linkedin.com/in/asadisadev/",
   twitter: "https://x.com/",
   resumeUrl: "/resume/resume.pdf",
   availability: "Available for freelance projects",

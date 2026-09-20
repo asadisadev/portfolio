@@ -17,15 +17,14 @@ export default function AboutPreview() {
       <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
         <SectionHeader
           eyebrow="About Me"
-          title="I build products end to end — from interface to infrastructure."
+          title="End to end products from interface to infrastructure."
         />
 
         <Reveal delay={0.1} className="space-y-6">
           <p className="text-base leading-relaxed text-muted-foreground">
-            I&apos;m a Full Stack Developer focused on building modern web
-            applications and AI-powered products. I work across frontend,
-            backend, databases and API integrations, with a growing focus on
-            AI/LLM applications.
+            A Full Stack Developer focused on building modern web applications
+            and AI-powered products, Work across frontend, backend, databases
+            and API integrations, with a growing focus on AI/LLM applications.
           </p>
           <p className="text-base leading-relaxed text-muted-foreground">
             My approach is pragmatic: pick the right tools, keep the system

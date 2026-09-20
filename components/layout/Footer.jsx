@@ -110,7 +110,7 @@ export default function Footer() {
           <p>
             © {year} {site.name}. All rights reserved.
           </p>
-          <p>Built with Next.js, Tailwind CSS & Framer Motion.</p>
+          {/* <p>Built with Next.js, Tailwind CSS & Framer Motion.</p> */}
         </div>
       </div>
     </footer>

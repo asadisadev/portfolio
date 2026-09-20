@@ -4,7 +4,7 @@ export const services = [
     slug: "website-development",
     description:
       "Modern, fast marketing websites, landing pages, portfolios and personal sites.",
-    startingPrice: "$300",
+    startingPrice: "$249",
     icon: "Globe",
     features: [
       "Business websites",
@@ -21,7 +21,7 @@ export const services = [
     slug: "full-stack-development",
     description:
       "Custom applications, dashboards, booking systems and SaaS products built end to end.",
-    startingPrice: "$750",
+    startingPrice: "$699",
     icon: "LayoutDashboard",
     features: [
       "Authentication",
@@ -38,7 +38,7 @@ export const services = [
     slug: "ai-applications",
     description:
       "LLM integrations, AI assistants, document processing and AI features inside existing apps.",
-    startingPrice: "$900",
+    startingPrice: "$899",
     icon: "Sparkles",
     features: [
       "AI integrations",
@@ -54,7 +54,7 @@ export const services = [
     slug: "backend-api-development",
     description:
       "Robust REST APIs, authentication, database integration and third-party services.",
-    startingPrice: "$500",
+    startingPrice: "$499",
     icon: "Server",
     features: [
       "REST APIs",
@@ -66,11 +66,11 @@ export const services = [
     technologies: ["Node.js", "Express", "Python", "FastAPI", "PostgreSQL"],
   },
   {
-    title: "Existing App Improvements",
+    title: "Existing Web Improvements",
     slug: "app-improvements",
     description:
       "Bug fixes, new features, performance work, UI polish and deployment for live applications.",
-    startingPrice: "$200",
+    startingPrice: "$199",
     icon: "Wrench",
     features: [
       "Bug fixing",

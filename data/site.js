@@ -7,7 +7,7 @@ export const site = {
   location: "Remote · Worldwide",
   github: "https://github.com/asadisadev",
   linkedin: "https://www.linkedin.com/in/asadisadev/",
-  twitter: "https://x.com/",
+  // twitter: "https://x.com/",
   resumeUrl: "/resume/resume.pdf",
   availability: "Available for freelance projects",
 };

@@ -8,7 +8,7 @@ export default function Skills() {
       <SectionHeader
         eyebrow="Skills"
         title="Technologies I work with"
-        description="A focused toolkit — only technologies I can discuss and use confidently."
+        description="A focused toolkit only technologies I can discuss and use confidently."
       />
 
       <StaggerContainer className="mt-14 grid gap-4 md:grid-cols-2 lg:grid-cols-3">

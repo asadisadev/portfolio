@@ -1,7 +1,7 @@
 export const experience = [
   {
-    role: "Software Developer",
-    company: "Company Name",
+    role: "Full Stack",
+    company: "Software Company",
     period: "May 2026 — Present",
     points: [
       "Developed web applications across frontend and backend",
@@ -16,12 +16,17 @@ export const experience = [
 export const education = [
   {
     title: "2-Year Diploma",
-    institution: "Institution Name",
-    period: "Year — Year",
+    institution: "SMIT",
+    period: "2024-2026",
   },
 ];
 
 export const certifications = [
-  { name: "Python Development", provider: "Provider" },
-  { name: "Web Development", provider: "Provider" },
+  { name: "Python Development with Fast Api", provider: "Bano Qabil" },
+  { name: "Modern Web Development", provider: "SMIT" },
+  {
+    name: "AI and Data Science",
+    provider: "SMIT",
+    period: " - May 2026-present",
+  },
 ];

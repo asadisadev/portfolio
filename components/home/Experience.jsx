@@ -80,6 +80,7 @@ export default function Experience() {
                   <h3 className="text-sm font-semibold">{c.name}</h3>
                   <p className="mt-1 text-xs text-muted-foreground">
                     {c.provider}
+                    {c.period}
                   </p>
                 </div>
               ))}

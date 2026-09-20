@@ -24,10 +24,10 @@ export default function AboutPage() {
         <div className="mt-12 grid gap-12 lg:grid-cols-[1.4fr_1fr]">
           <Reveal className="space-y-5">
             <p className="text-base leading-relaxed text-muted-foreground">
-              I&apos;m {site.name}, a Full Stack Developer focused on building
-              modern web applications and AI-powered products. I work across
-              frontend, backend, databases and API integrations, with a growing
-              focus on AI/LLM applications.
+              Full Stack Developer focused on building modern web applications
+              and AI-powered products. I work across frontend, backend,
+              databases and API integrations, with a growing focus on AI/LLM
+              applications.
             </p>
             <p className="text-base leading-relaxed text-muted-foreground">
               I care about clean architecture, fast interfaces and shipping
@@ -37,7 +37,7 @@ export default function AboutPage() {
             </p>
             <p className="text-base leading-relaxed text-muted-foreground">
               Outside of client work, I build side projects to explore new
-              technologies — from data pipelines to machine learning models.
+              technologies from data pipelines to machine learning models.
             </p>
 
             <div className="flex flex-wrap gap-3 pt-2">
@@ -165,7 +165,7 @@ export default function AboutPage() {
                     <div key={c.name}>
                       <p className="text-sm font-semibold">{c.name}</p>
                       <p className="text-xs text-muted-foreground">
-                        {c.provider}
+                        {c.provider} {c.period}
                       </p>
                     </div>
                   ))}

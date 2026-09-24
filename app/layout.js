@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"; 
 import "./globals.css";
 import ThemeProvider from "@/components/providers/ThemeProvider";
 import Navbar from "@/components/layout/Navbar";
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
           <main className="min-h-screen pt-16 md:pt-18">{children}</main>
           <Footer />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );

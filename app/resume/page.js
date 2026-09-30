@@ -130,13 +130,13 @@ export default function ResumePage() {
           </Reveal>
         </div>
 
-        <Reveal className="mt-8 text-center text-xs text-muted-foreground">
+        {/* <Reveal className="mt-8 text-center text-xs text-muted-foreground">
           To replace this with your real PDF, place your file at{" "}
           <code className="rounded bg-muted px-1.5 py-0.5">
             public/resume/resume.pdf
           </code>
           .
-        </Reveal>
+        </Reveal> */}
       </div>
     </Section>
   );

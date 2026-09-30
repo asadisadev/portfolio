@@ -62,6 +62,7 @@ export default function ContactPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
+                title="Github"
                 className="inline-flex h-12 w-12 items-center justify-center rounded-xl border border-border bg-card/50 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground focus-ring"
               >
                 <Github className="h-4 w-4" />
@@ -71,6 +72,7 @@ export default function ContactPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
+                title="LinkedIn"
                 className="inline-flex h-12 w-12 items-center justify-center rounded-xl border border-border bg-card/50 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground focus-ring"
               >
                 <Linkedin className="h-4 w-4" />

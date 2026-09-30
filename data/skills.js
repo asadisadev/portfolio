@@ -1,3 +1,9 @@
+import {SiReact,
+  SiNextdotjs,
+  SiTypescript,
+  SiTailwindcss,
+  SiJavascript,
+  SiNodedotjs,} from "react-icons/si";
 export const skillGroups = [
   {
     title: "Frontend",
@@ -28,11 +34,19 @@ export const skillGroups = [
 ];
 
 export const techStack = [
-  "React",
-  "Next.js",
-  "Node.js",
-  "Python",
-  "MongoDB",
-  "PostgreSQL",
-  "AI / LLM",
+   { name: "React", icon: SiReact },
+  { name: "Next.js", icon: SiNextdotjs },
+  { name: "TypeScript", icon: SiTypescript },
+  { name: "Tailwind CSS", icon: SiTailwindcss },
+  { name: "JavaScript", icon: SiJavascript },
+  { name: "Node.js", icon: SiNodedotjs },
 ];
+// export const techStack = [
+//   {name: "React", icon: SIReact},
+//   "Next.js",
+//   "Node.js",
+//   "Python",
+//   "MongoDB",
+//   "PostgreSQL",
+//   "AI / LLM",
+// ];

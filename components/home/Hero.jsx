@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="pointer-events-none absolute inset-0 grid-bg opacity-50" />
       <div className="pointer-events-none absolute -top-40 left-1/2 h-[520px] w-[820px] -translate-x-1/2 rounded-full bg-brand/10 blur-[120px] animate-pulse-slow" />
 
-      <div className="container relative flex min-h-[calc(100vh-4rem)] flex-col justify-center py-20 md:py-28">
+      <div className="container relative flex min-h-[calc(100vh-4rem)] flex-col justify-center pt-20 md:pt-28">
         <motion.div variants={container} initial="hidden" animate="visible">
           <motion.div variants={item}>
             <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1.5 text-xs text-muted-foreground backdrop-blur">
@@ -93,61 +93,32 @@ export default function Hero() {
                 return (
                   <span
                     key={`${tech.name}-${i}`}
-                    className="flex items-center gap-2 whitespace-nowrap text-sm font-medium text-muted-foreground/80"
+                    className="flex items-center gap-2 whitespace-nowrap text-sm font-medium"
                   >
-                    <Icon className="h-4 w-4" />
+                    <Icon size={22} color="default" aria-hidden="true" />
                     {tech.name}
                   </span>
                 );
               })}
             </div>
 
-            {/* <div className="flex shrink-0 animate-marquee gap-10 pr-10">
-              {[...techStack, ...techStack].map((tech, i) => (
-                const Icon = tech.icon;
-                <span
-                  key={`${tech.name}-${i}`}
-                  className="whitespace-nowrap text-sm font-medium text-muted-foreground/80"
-                >
-                  <Icon className="h-4 w-4" />
-                  {tech.name}
-                </span>
-              ))}
-            </div> */}
             <div
               aria-hidden
               className="flex shrink-0 animate-marquee gap-10 pr-10"
             >
               {[...techStack, ...techStack].map((tech, i) => {
                 const Icon = tech.icon;
-
                 return (
                   <span
                     key={`dup-${tech.name}-${i}`}
                     className="flex items-center gap-2 whitespace-nowrap text-sm font-medium text-muted-foreground/80"
                   >
-                    <Icon className="h-4 w-4" />
+                    <Icon size={22} color="default" aria-hidden="true" />
                     {tech.name}
                   </span>
                 );
               })}
             </div>
-
-            {/* <div
-              aria-hidden
-              className="flex shrink-0 animate-marquee gap-10 pr-10"
-            >
-              {[...techStack, ...techStack].map((tech, i) => (
-                const Icon = tech.icon;
-                <span
-                  key={`dup-${tech.name}-${i}`}
-                  className="whitespace-nowrap text-sm font-medium text-muted-foreground/80"
-                >
-                  <Icon className="h-4 w-4" />
-                  {tech.name}
-                </span>
-              ))}
-            </div> */}
           </div>
         </motion.div>
       </div>

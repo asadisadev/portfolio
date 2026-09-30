@@ -1,9 +1,19 @@
-import {SiReact,
+// import {SiReact,
+//   SiNextdotjs,
+//   SiTypescript,
+//   SiTailwindcss,
+//   SiJavascript,
+//   SiNodedotjs,} from "react-icons/si";
+
+import {
+  SiReact,
   SiNextdotjs,
   SiTypescript,
   SiTailwindcss,
   SiJavascript,
-  SiNodedotjs,} from "react-icons/si";
+  SiNodedotjs,
+} from "@icons-pack/react-simple-icons";
+
 export const skillGroups = [
   {
     title: "Frontend",
@@ -33,13 +43,39 @@ export const skillGroups = [
   },
 ];
 
+// export const techStack = [
+//   { name: "React", icon: SiReact, color: "#61DAFB" },
+//   { name: "Next.js", icon: SiNextdotjs, color: "#FFFFFF" },
+//   { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+//   { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
+//   { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
+//   { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
+// ];
 export const techStack = [
-   { name: "React", icon: SiReact },
-  { name: "Next.js", icon: SiNextdotjs },
-  { name: "TypeScript", icon: SiTypescript },
-  { name: "Tailwind CSS", icon: SiTailwindcss },
-  { name: "JavaScript", icon: SiJavascript },
-  { name: "Node.js", icon: SiNodedotjs },
+  {
+    name: "React",
+    icon: SiReact,
+  },
+  {
+    name: "Next.js",
+    icon: SiNextdotjs,
+  },
+  {
+    name: "TypeScript",
+    icon: SiTypescript,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: SiTailwindcss,
+  },
+  {
+    name: "JavaScript",
+    icon: SiJavascript,
+  },
+  {
+    name: "Node.js",
+    icon: SiNodedotjs,
+  },
 ];
 // export const techStack = [
 //   {name: "React", icon: SIReact},

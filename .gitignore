@@ -3,6 +3,8 @@
 
 # Next.js build output
 /.next/
+/.env
+.env
 
 
 
